@@ -12,8 +12,8 @@ import NavBar from "./components/NavBar/Navbar";
 function App() {
   return (
     <Router>
-      <NavBar/>
       <div className="carddeckbg">
+      <NavBar/>
         
         <Container className="backgroundtext d-flex justify-content-center">
        
