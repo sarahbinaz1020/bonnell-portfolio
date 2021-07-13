@@ -1,24 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Container } from "react-bootstrap";
+import { HashRouter as Router, Route } from "react-router-dom";
+import Dashboard from "./pages/Dashboard/Dashboard";
+import Portfolio from "./components/Portfolio/PortfolioCard"
+import Contact from "./pages/Contact/Contact";
+import Wrapper from "./components/Wrapper";
+import Footer from "./components/Footer/Footer";
+import "./app.css"
+import NavBar from "./components/NavBar/Navbar";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <NavBar/>
+      <div className="carddeckbg">
+        
+        <Container className="backgroundtext d-flex justify-content-center">
+       
+          <Wrapper>
+            <Route exact path="/" component={Dashboard} />
+            <Route path="/Portfolio" component={Portfolio} />
+            <Route path="/Contact" component={Contact} />
+          </Wrapper>
+        </Container>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

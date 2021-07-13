@@ -1,0 +1,7 @@
+.carddeck {
+    background-color: white;
+    
+    margin-top: 5%;
+    justify-content: center;
+    z-index: -1;
+}
