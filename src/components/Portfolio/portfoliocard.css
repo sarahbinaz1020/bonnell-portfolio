@@ -1,1 +1,10 @@
+.portfolio-title {
+    align-content: center;
+    box-shadow: 25px 25px 10px 80px rgb(49, 53, 59) inset, -50px -50px 100px 100px rgb(49, 53, 59) inset ; 
+    width: 450px;
+    height: 190px;
+}
 
+.carddeckbody {
+    align-content: center;
+}
