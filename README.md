@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+## #20 Portfolio - React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+* [Deployed Link](https://)
 
-### `npm start`
+* [Github Code](https://github.com/sarahbinaz1020/bonnell-portfolio)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Description
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Updating portfolio in React with:
 
-### `npm test`
+* 6 total projects
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Header
 
-### `npm run build`
+* Footer
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* (Currently under construction) Contact Form created using Nodemailer and Express, along with OAuth2 for Gmail authentication. Make sure to set-up OAuth2 configuration on https://console.cloud.google.com/apis & https://developers.google.com/oauthplayground
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Nodemailer License used is MIT https://nodemailer.com/about/
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Special thanks to 
 
-### `npm run eject`
+* Pending issues: 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+    * Currently working on contact form using Nodemailer and Express, along with OAuth2 with googleAPIs to integrate a contact form for users to submit directly to my email.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    * Currently working on creating a single project componentfor all projects
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Questions
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you have any questions about the repo, open an issue or contact me directly at sarahbinaz1020@gmail.com. You can find more of my work at [Sarah Bonnell](https://github.com/sarahbinaz1020/).
