@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/sarahbinaz1020/bonnell-portfolio/static/css/main.6e2c1b08.chunk.css",
-    "main.js": "/sarahbinaz1020/bonnell-portfolio/static/js/main.d84510f9.chunk.js",
-    "main.js.map": "/sarahbinaz1020/bonnell-portfolio/static/js/main.d84510f9.chunk.js.map",
-    "runtime-main.js": "/sarahbinaz1020/bonnell-portfolio/static/js/runtime-main.558ac4d6.js",
-    "runtime-main.js.map": "/sarahbinaz1020/bonnell-portfolio/static/js/runtime-main.558ac4d6.js.map",
-    "static/js/2.b0667cd4.chunk.js": "/sarahbinaz1020/bonnell-portfolio/static/js/2.b0667cd4.chunk.js",
-    "static/js/2.b0667cd4.chunk.js.map": "/sarahbinaz1020/bonnell-portfolio/static/js/2.b0667cd4.chunk.js.map",
-    "static/js/3.9b2b84e3.chunk.js": "/sarahbinaz1020/bonnell-portfolio/static/js/3.9b2b84e3.chunk.js",
-    "static/js/3.9b2b84e3.chunk.js.map": "/sarahbinaz1020/bonnell-portfolio/static/js/3.9b2b84e3.chunk.js.map",
-    "index.html": "/sarahbinaz1020/bonnell-portfolio/index.html",
-    "static/css/main.6e2c1b08.chunk.css.map": "/sarahbinaz1020/bonnell-portfolio/static/css/main.6e2c1b08.chunk.css.map",
-    "static/js/2.b0667cd4.chunk.js.LICENSE.txt": "/sarahbinaz1020/bonnell-portfolio/static/js/2.b0667cd4.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/sarahbinaz1020/bonnell-portfolio/static/media/concrete_wall.2fe8c588.png"
+    "main.css": "/bonnell-portfolio/static/css/main.e59cbaf1.chunk.css",
+    "main.js": "/bonnell-portfolio/static/js/main.07d8cb1e.chunk.js",
+    "main.js.map": "/bonnell-portfolio/static/js/main.07d8cb1e.chunk.js.map",
+    "runtime-main.js": "/bonnell-portfolio/static/js/runtime-main.834b0a66.js",
+    "runtime-main.js.map": "/bonnell-portfolio/static/js/runtime-main.834b0a66.js.map",
+    "static/js/2.b0667cd4.chunk.js": "/bonnell-portfolio/static/js/2.b0667cd4.chunk.js",
+    "static/js/2.b0667cd4.chunk.js.map": "/bonnell-portfolio/static/js/2.b0667cd4.chunk.js.map",
+    "static/js/3.9b2b84e3.chunk.js": "/bonnell-portfolio/static/js/3.9b2b84e3.chunk.js",
+    "static/js/3.9b2b84e3.chunk.js.map": "/bonnell-portfolio/static/js/3.9b2b84e3.chunk.js.map",
+    "index.html": "/bonnell-portfolio/index.html",
+    "static/css/main.e59cbaf1.chunk.css.map": "/bonnell-portfolio/static/css/main.e59cbaf1.chunk.css.map",
+    "static/js/2.b0667cd4.chunk.js.LICENSE.txt": "/bonnell-portfolio/static/js/2.b0667cd4.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/bonnell-portfolio/static/media/concrete_wall.2fe8c588.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.558ac4d6.js",
+    "static/js/runtime-main.834b0a66.js",
     "static/js/2.b0667cd4.chunk.js",
-    "static/css/main.6e2c1b08.chunk.css",
-    "static/js/main.d84510f9.chunk.js"
+    "static/css/main.e59cbaf1.chunk.css",
+    "static/js/main.07d8cb1e.chunk.js"
   ]
 }
