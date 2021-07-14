@@ -9,13 +9,18 @@ function Header() {
         <Row>
           <Col>
             <Image
-              className="mainImage"
+              className="mainImage mt-5"
               src={process.env.PUBLIC_URL + "/images/run-with-chase.jpg"}
               rounded
               fluid
             />
           </Col>
           <Col className="align-items-center">
+          <img
+            src={process.env.PUBLIC_URL + "/images/hello.png"}
+            className="portfolio-title figure-img img-fluid rounded mx-auto d-block"
+            alt="..."
+          />
             <h1 className="header">Nice to meet you</h1>
             <p className="headertxt">My name is Sarah.</p>
             <p className="headertxt">

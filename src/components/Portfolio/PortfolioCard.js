@@ -9,7 +9,7 @@ function PortfolioCard() {
       <Row>
         <Col className="mb-3">
           <img
-            src={process.env.PUBLIC_URL + "/images/portfolio-00c4cc(2).png"}
+            src={process.env.PUBLIC_URL + "/images/portfolio-black.png"}
             className="portfolio-title figure-img img-fluid rounded mx-auto d-block"
             alt="..."
           />
