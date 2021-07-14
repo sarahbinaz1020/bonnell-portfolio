@@ -20,7 +20,6 @@ Updating portfolio in React with:
 
 * Nodemailer License used is MIT https://nodemailer.com/about/
 
-* Special thanks to 
 
 * Pending issues: 
 
