@@ -33,9 +33,12 @@ function Header() {
               learn something new, and what's better than enriching your understanding of the world around you!
             </p>
             <p className="headertxt">Feel free to peruse; I welcome any feedback.</p>
-            <a href="https://drive.google.com/file/d/1PdPPVWDQrDSOSrAmNP79qaqPq1I1TRTT/view?usp=sharing" target="_blank">
+            <div>
+
+            <a href="https://drive.google.com/file/d/1PdPPVWDQrDSOSrAmNP79qaqPq1I1TRTT/view?usp=sharing" alt=""/>
                 <p className="headertxt justify-content-end"> <strong>Click here to view my resume</strong></p>
-              </a>
+            </div>
+             
           </Col>
         </Row>
       </Container>
