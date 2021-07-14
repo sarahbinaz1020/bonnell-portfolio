@@ -1,4 +1,4 @@
-Saraah Bonnell Portfolio
+Sarah Bonnell Portfolio
 
 
 
@@ -10,7 +10,7 @@ Saraah Bonnell Portfolio
 
 Updating portfolio in React with:
 
-* 6 total projects
+* 6 total projects in Portfolio
 
 * Header
 
