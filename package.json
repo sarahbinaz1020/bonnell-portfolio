@@ -39,5 +39,19 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "Sarah Bonnell Portfolio",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarahbinaz1020/bonnell-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarahbinaz1020/bonnell-portfolio/issues"
+  },
+  "homepage": "https://github.com/sarahbinaz1020/bonnell-portfolio#readme"
 }
