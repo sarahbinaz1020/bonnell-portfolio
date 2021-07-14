@@ -7,7 +7,7 @@ function PortfolioCard() {
   return (
     <Container>
       <Row>
-        <Col>
+        <Col className="mb-3">
           <img
             src={process.env.PUBLIC_URL + "/images/portfolio-00c4cc(2).png"}
             className="portfolio-title figure-img img-fluid rounded mx-auto d-block"
@@ -15,9 +15,9 @@ function PortfolioCard() {
           />
         </Col>
       </Row>
-      <Row>
-        <Col className="ml-5 mr-5 pl-4 pr-4">
-          <Carousel variant="dark" className="ml-5 mr-5">
+      <Row><Col></Col>
+        <Col xs={10} >
+          <Carousel variant="success" className="ml-5 mr-5 mb-5">
             <Carousel.Item>
               <img
                 className="d-block w-100"
@@ -128,7 +128,7 @@ function PortfolioCard() {
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
-        </Col>
+        </Col><Col></Col>
       </Row>
     </Container>
   );
