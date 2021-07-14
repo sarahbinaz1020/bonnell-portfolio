@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import "./header.css";
 
 function Header() {
@@ -33,9 +33,9 @@ function Header() {
               learn something new, and what's better than enriching your understanding of the world around you!
             </p>
             <p className="headertxt">Feel free to peruse; I welcome any feedback.</p>
-            <Link to={{ pathname: "https://drive.google.com/file/d/1PdPPVWDQrDSOSrAmNP79qaqPq1I1TRTT/view?usp=sharing" }} target="_blank">
+            <a href="https://drive.google.com/file/d/1PdPPVWDQrDSOSrAmNP79qaqPq1I1TRTT/view?usp=sharing" target="_blank">
                 <p className="headertxt justify-content-end"> <strong>Click here to view my resume</strong></p>
-              </Link>
+              </a>
           </Col>
         </Row>
       </Container>
