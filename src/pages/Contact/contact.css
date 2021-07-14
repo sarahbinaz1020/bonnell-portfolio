@@ -1,13 +1,17 @@
 .contacttext {
-    color: #175e6e;
+    color: white;
+    
     
   }
 
   h3 {
     font-family: 'Lobster', cursive;
+    font-size: 40px;
   }
   
 
-  .mobile {
-    color: blue;
+  .emailtext {
+    color: white;
+    font-size: 25px;
+
   }
