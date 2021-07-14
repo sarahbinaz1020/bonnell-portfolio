@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import "./header.css";
 
 function Header() {
@@ -32,6 +33,9 @@ function Header() {
               learn something new, and what's better than enriching your understanding of the world around you!
             </p>
             <p className="headertxt">Feel free to peruse, I welcome any feedback given!</p>
+            <Link to="https://docs.google.com/document/d/1h7M_RVbEtxi6nXIBcfGN2F-TLrPn5BXm8KLUeAUb2p0/edit?usp=sharing">
+                <p className="headertxt justify-content-end"> <strong>Click here to view my resume</strong></p>
+              </Link>
           </Col>
         </Row>
       </Container>
