@@ -6,7 +6,7 @@ import Portfolio from "./components/Portfolio/PortfolioCard";
 import Contact from "./pages/Contact/Contact";
 import Wrapper from "./components/Wrapper";
 import Footer from "./components/Footer/Footer";
-import "./app.css";
+import "./App.css";
 import NavBar from "./components/NavBar/Navbar";
 
 function App() {
