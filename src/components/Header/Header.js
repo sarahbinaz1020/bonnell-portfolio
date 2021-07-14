@@ -32,8 +32,8 @@ function Header() {
               Every opportunity presented provides a chance to
               learn something new, and what's better than enriching your understanding of the world around you!
             </p>
-            <p className="headertxt">Feel free to peruse, I welcome any feedback given!</p>
-            <Link to="https://drive.google.com/file/d/1PdPPVWDQrDSOSrAmNP79qaqPq1I1TRTT/view?usp=sharing">
+            <p className="headertxt">Feel free to peruse; I welcome any feedback.</p>
+            <Link to={{ pathname: "https://drive.google.com/file/d/1PdPPVWDQrDSOSrAmNP79qaqPq1I1TRTT/view?usp=sharing" }} target="_blank">
                 <p className="headertxt justify-content-end"> <strong>Click here to view my resume</strong></p>
               </Link>
           </Col>
