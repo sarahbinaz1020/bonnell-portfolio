@@ -14,7 +14,7 @@ function PortfolioCard() {
           />
         </Col>
       </Row>
-      <Row>
+      <Row className="mt-5 mb-5">
         <Col>
           {/* Card 1 - Bathroom Buddy */}
           <Card style={{ width: "18rem" }}>
@@ -60,6 +60,7 @@ function PortfolioCard() {
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </Card.Text>
+              <div className="d-grid gap-2">
               <Button
                 variant="primary"
                 href="https://sarahbinaz1020.github.io/Work-Day-Scheduler/"
@@ -72,6 +73,7 @@ function PortfolioCard() {
               >
                 Code
               </Button>
+              </div>
             </Card.Body>
           </Card>
         </Col>
@@ -88,6 +90,7 @@ function PortfolioCard() {
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </Card.Text>
+              <div className="d-grid gap-2">
               <Button
                 variant="primary"
                 href="https://note-taker-sb.herokuapp.com/"
@@ -100,11 +103,12 @@ function PortfolioCard() {
               >
                 Code
               </Button>
+              </div>
             </Card.Body>
           </Card>
         </Col>
       </Row>
-      <Row>
+      <Row className="mb-5">
         <Col>
           {/* Card 4 - Weather Dashboard */}
           <Card style={{ width: "18rem" }}>
@@ -118,6 +122,7 @@ function PortfolioCard() {
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </Card.Text>
+              <div className="d-grid gap-2">
               <Button
                 variant="primary"
                 href="https://sarahbinaz1020.github.io/Weather-Dashboard/index.html"
@@ -130,6 +135,7 @@ function PortfolioCard() {
               >
                 Code
               </Button>
+              </div>
             </Card.Body>
           </Card>
         </Col>
@@ -146,6 +152,7 @@ function PortfolioCard() {
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </Card.Text>
+              <div className="d-grid gap-2">
               <Button
                 variant="primary"
                 href="https://fitness-tracker-8.herokuapp.com/"
@@ -158,6 +165,7 @@ function PortfolioCard() {
               >
                 Code
               </Button>
+              </div>
             </Card.Body>
           </Card>
         </Col>
@@ -174,6 +182,7 @@ function PortfolioCard() {
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </Card.Text>
+              <div className="d-grid gap-2">
               <Button
                 variant="primary"
                 href="https://sarahbinaz1020.github.io/employee-directory/"
@@ -186,6 +195,7 @@ function PortfolioCard() {
               >
                 Code
               </Button>
+              </div>
             </Card.Body>
           </Card>
         </Col>
