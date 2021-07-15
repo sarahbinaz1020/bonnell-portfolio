@@ -1,13 +1,12 @@
 import React from "react";
-import { Carousel, Container, Row, Col } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import "./portfoliocard.css";
 
 function PortfolioCard() {
   return (
     <Container>
       <Row>
-        <Col className="mb-3">
+        <Col>
           <img
             src={process.env.PUBLIC_URL + "/images/portfolio-black.png"}
             className="portfolio-title figure-img img-fluid rounded mx-auto d-block"
@@ -15,120 +14,181 @@ function PortfolioCard() {
           />
         </Col>
       </Row>
-      <Row><Col></Col>
-        <Col xs={10} >
-          <Carousel variant="success" className="ml-5 mr-5 mb-5">
-            <Carousel.Item>
-              <img
-                className="d-block w-100"
-                src={process.env.PUBLIC_URL + "/images/bathroom-buddy.png"}
-                alt="First slide"
-              />
-              <Carousel.Caption>
-                {/* <h3>Bathroom Buddy</h3> */}
-                <a href="https://bathroom-buddy-v1.herokuapp.com/" target="_blank" rel="noreferrer">
-                  Deployed App
-                </a>
-                <Link to="https://github.com/bhfreeman/restroom-tracker">
-                  <p>Code</p>
-                </Link>
-              </Carousel.Caption>
-            </Carousel.Item>
-
-            <Carousel.Item>
-              <img
-                className="d-block w-100"
-                src={
-                  process.env.PUBLIC_URL + "./images/work-day-planner-img.png"
-                }
-                alt="Second slide"
-              />
-              <Carousel.Caption>
-                {/* <h3>Work Day Scheduler</h3> */}
-                <Link to="https://sarahbinaz1020.github.io/Work-Day-Scheduler/">
-                  <p>Deployed App</p>
-                </Link>
-                <Link to="https://github.com/sarahbinaz1020/Work-Day-Scheduler">
-                  <p>Code</p>
-                </Link>
-              </Carousel.Caption>
-            </Carousel.Item>
-
-            <Carousel.Item>
-              <img
-                className="d-block w-100"
-                src={process.env.PUBLIC_URL + "../images/note-taker.png"}
-                alt="Third slide"
-              />
-
-              <Carousel.Caption>
-                {/* <h3>Note Taker</h3> */}
-                <Link to="https://note-taker-sb.herokuapp.com/">
-                  <p>Deployed App</p>
-                </Link>
-                <Link to="https://github.com/sarahbinaz1020/note-taker">
-                  <p>Code</p>
-                </Link>
-              </Carousel.Caption>
-            </Carousel.Item>
-
-            <Carousel.Item>
-              <img
-                className="d-block w-100"
-                src={process.env.PUBLIC_URL + "../images/weather-dashboard.png"}
-                alt="Third slide"
-              />
-
-              <Carousel.Caption>
-                {/* <h3>Weather Dashboard</h3> */}
-                <Link to="https://sarahbinaz1020.github.io/Weather-Dashboard/index.html">
-                  <p>Deployed App</p>
-                </Link>
-                <Link to="https://github.com/sarahbinaz1020/Weather-Dashboard">
-                  <p>Code</p>
-                </Link>
-              </Carousel.Caption>
-            </Carousel.Item>
-
-            <Carousel.Item>
-              <img
-                className="d-block w-100"
-                src={process.env.PUBLIC_URL + "../images/fitness-tracker.png"}
-                alt="Third slide"
-              />
-
-              <Carousel.Caption>
-                {/* <h3>Fitness Tracker</h3> */}
-                <Link to="https://fitness-tracker-8.herokuapp.com/">
-                  <p>Deployed App</p>
-                </Link>
-                <Link to="https://github.com/sarahbinaz1020/fitness-tracker">
-                  <p>Code</p>
-                </Link>
-              </Carousel.Caption>
-            </Carousel.Item>
-
-            <Carousel.Item>
-              <img
-                className="d-block w-100"
-                src={
-                  process.env.PUBLIC_URL + "../images/employee-directory.png"
-                }
-                alt="Third slide"
-              />
-
-              <Carousel.Caption>
-                {/* <h3>Employee Directory</h3> */}
-                <Link to="https://sarahbinaz1020.github.io/employee-directory/">
-                  <p>Deployed App</p>
-                </Link>
-                <Link to="https://github.com/sarahbinaz1020/employee-directory">
-                  <p>Code</p>
-                </Link>
-              </Carousel.Caption>
-            </Carousel.Item>
-          </Carousel>
-        </Col><Col></Col>
+      <Row>
+        <Col>
+          {/* Card 1 - Bathroom Buddy */}
+          <Card style={{ width: "18rem" }}>
+            <Card.Img
+              variant="top"
+              src={process.env.PUBLIC_URL + "/images/bathroom-buddy.png"}
+            />
+            <Card.Body>
+              <Card.Title>Bathroom Buddy</Card.Title>
+              <Card.Text>
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </Card.Text>
+              <div className="d-grid gap-2">
+                <Button
+                  className=""
+                  variant="primary"
+                  href="https://bathroom-buddy-v1.herokuapp.com/"
+                >
+                  Deployed Site
+                </Button>
+                <Button
+                  className=""
+                  variant="primary"
+                  href="https://github.com/bhfreeman/restroom-tracker"
+                >
+                  Code
+                </Button>
+              </div>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col>
+          {/* Card 2 - Workday Scheduler */}
+          <Card style={{ width: "18rem" }}>
+            <Card.Img
+              variant="top"
+              src={process.env.PUBLIC_URL + "./images/work-day-planner-img.png"}
+            />
+            <Card.Body>
+              <Card.Title>Work Day Scheduler</Card.Title>
+              <Card.Text>
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </Card.Text>
+              <Button
+                variant="primary"
+                href="https://sarahbinaz1020.github.io/Work-Day-Scheduler/"
+              >
+                Deployed Site
+              </Button>
+              <Button
+                variant="primary"
+                href="https://github.com/sarahbinaz1020/Work-Day-Scheduler"
+              >
+                Code
+              </Button>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col>
+          {/* Card 3 - Note Taker */}
+          <Card style={{ width: "18rem" }}>
+            <Card.Img
+              variant="top"
+              src={process.env.PUBLIC_URL + "../images/note-taker.png"}
+            />
+            <Card.Body>
+              <Card.Title>Note Taker</Card.Title>
+              <Card.Text>
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </Card.Text>
+              <Button
+                variant="primary"
+                href="https://note-taker-sb.herokuapp.com/"
+              >
+                Deployed Site
+              </Button>
+              <Button
+                variant="primary"
+                href="https://github.com/sarahbinaz1020/note-taker"
+              >
+                Code
+              </Button>
+            </Card.Body>
+          </Card>
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          {/* Card 4 - Weather Dashboard */}
+          <Card style={{ width: "18rem" }}>
+            <Card.Img
+              variant="top"
+              src={process.env.PUBLIC_URL + "../images/weather-dashboard.png"}
+            />
+            <Card.Body>
+              <Card.Title>Weather Dashboard</Card.Title>
+              <Card.Text>
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </Card.Text>
+              <Button
+                variant="primary"
+                href="https://sarahbinaz1020.github.io/Weather-Dashboard/index.html"
+              >
+                Deployed Site
+              </Button>
+              <Button
+                variant="primary"
+                href="https://github.com/sarahbinaz1020/Weather-Dashboard"
+              >
+                Code
+              </Button>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col>
+          {/* Card 5 - Fitness Tracker */}
+          <Card style={{ width: "18rem" }}>
+            <Card.Img
+              variant="top"
+              src={process.env.PUBLIC_URL + "../images/fitness-tracker.png"}
+            />
+            <Card.Body>
+              <Card.Title>Fitness Tracker</Card.Title>
+              <Card.Text>
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </Card.Text>
+              <Button
+                variant="primary"
+                href="https://fitness-tracker-8.herokuapp.com/"
+              >
+                Deployed Site
+              </Button>
+              <Button
+                variant="primary"
+                href="https://github.com/sarahbinaz1020/fitness-tracker"
+              >
+                Code
+              </Button>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col>
+          {/* Card 6 - Employee Directory */}
+          <Card style={{ width: "18rem" }}>
+            <Card.Img
+              variant="top"
+              src={process.env.PUBLIC_URL + "../images/employee-directory.png"}
+            />
+            <Card.Body>
+              <Card.Title>Employee Directory</Card.Title>
+              <Card.Text>
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </Card.Text>
+              <Button
+                variant="primary"
+                href="https://sarahbinaz1020.github.io/employee-directory/"
+              >
+                Deployed Site
+              </Button>
+              <Button
+                variant="primary"
+                href="https://github.com/sarahbinaz1020/employee-directory"
+              >
+                Code
+              </Button>
+            </Card.Body>
+          </Card>
+        </Col>
       </Row>
     </Container>
   );

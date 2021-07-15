@@ -2,7 +2,7 @@ Sarah Bonnell Portfolio
 
 
 
-* [Deployed Link](https://sarahbinaz1020.github.io/bonnell-portfolio/#/)
+* [Deployed Link](https://bonnell-portfolio.netlify.app/#/)
 
 * [Github Code](https://github.com/sarahbinaz1020/bonnell-portfolio)
 
