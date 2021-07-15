@@ -17,7 +17,7 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
-  "homepage": "https://sarahbinaz1020.github.io/bonnell-portfolio/#",
+  "homepage": "https://sarahbinaz1020.github.io/bonnell-portfolio/#/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
