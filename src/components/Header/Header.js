@@ -35,10 +35,12 @@ function Header() {
             <p className="headertxt">Feel free to peruse; I welcome any feedback.</p>
             {/* <Router basename="https://sarahbinaz1020.github.io/bonnell-portfolio/#/"/>
 <Link to={{ pathname: "https://drive.google.com/file/d/1PdPPVWDQrDSOSrAmNP79qaqPq1I1TRTT/view?usp=sharing"}} target="_blank" > */}
-            
+            <div>
+
             <a href="https://drive.google.com/file/d/1PdPPVWDQrDSOSrAmNP79qaqPq1I1TRTT/view?usp=sharing" target="_blank" rel="noropener">
             Click here to view my resume
             </a>
+            </div>
                 
              {/* </Link> */}
               </Col>
