@@ -35,10 +35,10 @@ function Header() {
             <p className="headertxt">Feel free to peruse; I welcome any feedback.</p>
            
             
-            <Link to={{ pathname: "https://drive.google.com/file/d/1PdPPVWDQrDSOSrAmNP79qaqPq1I1TRTT/view?usp=sharing" }} target="_blank">
-            <p className="headertxt justify-content-end"> <strong>Click here to view my resume</strong>
-                </p>
-             </Link>
+            <a href="https://drive.google.com/file/d/1PdPPVWDQrDSOSrAmNP79qaqPq1I1TRTT/view?usp=sharing" target="_blank" rel="noreferrer">
+            Click here to view my resume</a>
+                
+             
           </Col>
         </Row>
       </Container>
