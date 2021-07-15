@@ -26,9 +26,9 @@ function PortfolioCard() {
               />
               <Carousel.Caption>
                 {/* <h3>Bathroom Buddy</h3> */}
-                <Link to="https://bathroom-buddy-v1.herokuapp.com/">
-                  <p>Deployed App</p>
-                </Link>
+                <a href="https://bathroom-buddy-v1.herokuapp.com/" target="_blank" rel="noreferrer">
+                  Deployed App
+                </a>
                 <Link to="https://github.com/bhfreeman/restroom-tracker">
                   <p>Code</p>
                 </Link>
