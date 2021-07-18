@@ -13,3 +13,12 @@
     box-shadow: -5px 5px rgba(230, 132, 46, .75);
     
 }
+
+.cardtitle {
+    border-top: 1px solid rgb(197, 193, 193);
+    
+}
+
+.cardtext {
+    border-bottom: 1px solid rgb(197, 193, 193);
+}

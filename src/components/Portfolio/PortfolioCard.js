@@ -23,16 +23,24 @@ function PortfolioCard() {
               src={process.env.PUBLIC_URL + "/images/bathroom-buddy.png"}
             />
             <Card.Body>
-              <Card.Title>Bathroom Buddy</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+              <Card.Title className="cardtitle">Bathroom Buddy</Card.Title>
+              <Card.Text className="cardtext">
+                Tools used:
+                <ul>
+                  <li>Node.js</li>
+                  <li>Express</li>
+                  <li>Handlebars</li>
+                  <li>MySQL</li>
+                  <li>Team-built API</li>
+                  <li>CSS</li>
+                </ul>
               </Card.Text>
               <div className="d-grid gap-2">
                 <Button
                   className=""
                   variant="primary"
                   href="https://bathroom-buddy-v1.herokuapp.com/"
+                  target="_blank"
                 >
                   Deployed Site
                 </Button>
@@ -40,6 +48,7 @@ function PortfolioCard() {
                   className=""
                   variant="primary"
                   href="https://github.com/bhfreeman/restroom-tracker"
+                  target="_blank"
                 >
                   Code
                 </Button>
@@ -48,93 +57,115 @@ function PortfolioCard() {
           </Card>
         </Col>
         <Col>
-          {/* Card 2 - Workday Scheduler */}
-          <Card className="wholecard" style={{ width: "18rem" }}>
-            <Card.Img
-              variant="top"
-              src={process.env.PUBLIC_URL + "./images/work-day-planner-img.png"}
-            />
-            <Card.Body>
-              <Card.Title>Work Day Scheduler</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
-              <div className="d-grid gap-2">
-              <Button
-                variant="primary"
-                href="https://sarahbinaz1020.github.io/Work-Day-Scheduler/"
-              >
-                Deployed Site
-              </Button>
-              <Button
-                variant="primary"
-                href="https://github.com/sarahbinaz1020/Work-Day-Scheduler"
-              >
-                Code
-              </Button>
-              </div>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col>
-        {/* Card 3 - Employee Directory */}
-        <Card className="wholecard" style={{ width: "18rem" }}>
-            <Card.Img
-              variant="top"
-              src={process.env.PUBLIC_URL + "../images/employee-directory.png"}
-            />
-            <Card.Body>
-              <Card.Title>Employee Directory</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
-              <div className="d-grid gap-2">
-              <Button
-                variant="primary"
-                href="https://sarahbinaz1020.github.io/employee-directory/"
-              >
-                Deployed Site
-              </Button>
-              <Button
-                variant="primary"
-                href="https://github.com/sarahbinaz1020/employee-directory"
-              >
-                Code
-              </Button>
-              </div>
-            </Card.Body>
-          </Card>          
-        </Col>
-      </Row>
-      <Row className="mb-5">
-        <Col>
-          {/* Card 4 - Weather Dashboard */}
+          {/* Card 2 - Weather Dashboard */}
           <Card className="wholecard" style={{ width: "18rem" }}>
             <Card.Img
               variant="top"
               src={process.env.PUBLIC_URL + "../images/weather-dashboard.png"}
             />
             <Card.Body>
-              <Card.Title>Weather Dashboard</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+              <Card.Title className="cardtitle">Weather Dashboard</Card.Title>
+              <Card.Text className="cardtext">
+                Tools used:
+                <ul>
+                  <li>JavaScript</li>
+                  <li>Open Weather API</li>
+                  <li>localStorage</li>
+                  <li>CSS</li>
+                </ul>
               </Card.Text>
               <div className="d-grid gap-2">
-              <Button
-                variant="primary"
-                href="https://sarahbinaz1020.github.io/Weather-Dashboard/index.html"
-              >
-                Deployed Site
-              </Button>
-              <Button
-                variant="primary"
-                href="https://github.com/sarahbinaz1020/Weather-Dashboard"
-              >
-                Code
-              </Button>
+                <Button
+                  variant="primary"
+                  href="https://sarahbinaz1020.github.io/Weather-Dashboard/index.html"
+                  target="_blank"
+                >
+                  Deployed Site
+                </Button>
+                <Button
+                  variant="primary"
+                  href="https://github.com/sarahbinaz1020/Weather-Dashboard"
+                  target="_blank"
+                >
+                  Code
+                </Button>
+              </div>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col>
+          {/* Card 3 - Employee Directory */}
+          <Card className="wholecard" style={{ width: "18rem" }}>
+            <Card.Img
+              variant="top"
+              src={process.env.PUBLIC_URL + "../images/employee-directory.png"}
+            />
+            <Card.Body>
+              <Card.Title className="cardtitle">Employee Directory</Card.Title>
+              <Card.Text className="cardtext">
+                Tools used:
+                <ul>
+                  <li>React</li>
+                  <li>Random User API</li>
+                  <li>Bootstrap</li>
+                  <li>CSS</li>
+                </ul>
+              </Card.Text>
+              <div className="d-grid gap-2">
+                <Button
+                  variant="primary"
+                  href="https://sarahbinaz1020.github.io/employee-directory/"
+                  target="_blank"
+                >
+                  Deployed Site
+                </Button>
+                <Button
+                  variant="primary"
+                  href="https://github.com/sarahbinaz1020/employee-directory"
+                  target="_blank"
+                >
+                  Code
+                </Button>
+              </div>
+            </Card.Body>
+          </Card>
+        </Col>
+      </Row>
+
+      <Row className="mb-5">
+        <Col>
+          {/* Card 4 - Workday Scheduler */}
+          <Card className="wholecard" style={{ width: "18rem" }}>
+            <Card.Img
+              variant="top"
+              src={process.env.PUBLIC_URL + "./images/work-day-planner-img.png"}
+            />
+            <Card.Body>
+              <Card.Title className="cardtitle">Work Day Scheduler</Card.Title>
+              <Card.Text className="cardtext">
+                Tools used:
+                <ul>
+                  <li>JavaScript</li>
+                  <li>jQuery</li>
+                  <li>localStorage</li>
+                  <li>CSS</li>
+                </ul>
+              </Card.Text>
+              <div className="d-grid gap-2">
+                <Button
+                  variant="primary"
+                  href="https://sarahbinaz1020.github.io/Work-Day-Scheduler/"
+                  target="_blank"
+                >
+                  Deployed Site
+                </Button>
+                <Button
+                  variant="primary"
+                  href="https://github.com/sarahbinaz1020/Work-Day-Scheduler"
+                  target="_blank"
+                >
+                  Code
+                </Button>
               </div>
             </Card.Body>
           </Card>
@@ -147,24 +178,29 @@ function PortfolioCard() {
               src={process.env.PUBLIC_URL + "../images/fitness-tracker.png"}
             />
             <Card.Body>
-              <Card.Title>Fitness Tracker</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+              <Card.Title className="cardtitle">Fitness Tracker</Card.Title>
+              <Card.Text className="cardtext">
+                Tools used:
+                <ul>
+                  <li>MongoDB</li>
+                  <li>Mongoose</li>
+                </ul>
               </Card.Text>
               <div className="d-grid gap-2">
-              <Button
-                variant="primary"
-                href="https://fitness-tracker-8.herokuapp.com/"
-              >
-                Deployed Site
-              </Button>
-              <Button
-                variant="primary"
-                href="https://github.com/sarahbinaz1020/fitness-tracker"
-              >
-                Code
-              </Button>
+                <Button
+                  variant="primary"
+                  href="https://fitness-tracker-8.herokuapp.com/"
+                  target="_blank"
+                >
+                  Deployed Site
+                </Button>
+                <Button
+                  variant="primary"
+                  href="https://github.com/sarahbinaz1020/fitness-tracker"
+                  target="_blank"
+                >
+                  Code
+                </Button>
               </div>
             </Card.Body>
           </Card>
@@ -177,24 +213,29 @@ function PortfolioCard() {
               src={process.env.PUBLIC_URL + "../images/note-taker.png"}
             />
             <Card.Body>
-              <Card.Title>Note Taker</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+              <Card.Title className="cardtitle">Note Taker</Card.Title>
+              <Card.Text className="cardtext">
+                Tools used:
+                <ul>
+                  <li>Node.js</li>
+                  <li>Express</li>
+                </ul>
               </Card.Text>
               <div className="d-grid gap-2">
-              <Button
-                variant="primary"
-                href="https://note-taker-sb.herokuapp.com/"
-              >
-                Deployed Site
-              </Button>
-              <Button
-                variant="primary"
-                href="https://github.com/sarahbinaz1020/note-taker"
-              >
-                Code
-              </Button>
+                <Button
+                  variant="primary"
+                  href="https://note-taker-sb.herokuapp.com/"
+                  target="_blank"
+                >
+                  Deployed Site
+                </Button>
+                <Button
+                  variant="primary"
+                  href="https://github.com/sarahbinaz1020/note-taker"
+                  target="_blank"
+                >
+                  Code
+                </Button>
               </div>
             </Card.Body>
           </Card>
