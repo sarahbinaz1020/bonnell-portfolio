@@ -4,7 +4,7 @@ import "./portfoliocard.css";
 
 function PortfolioCard() {
   return (
-    <Container>
+    <Container className="" fluid>
       <Row>
         <Col>
           <img
@@ -17,7 +17,7 @@ function PortfolioCard() {
       <Row className="mt-5 mb-5">
         <Col>
           {/* Card 1 - Bathroom Buddy */}
-          <Card className="wholecard" style={{ width: "18rem" }}>
+          <Card className="wholecard mx-auto" style={{ width: "18rem" }}>
             <Card.Img
               variant="top"
               src={process.env.PUBLIC_URL + "/images/bathroom-buddy.png"}
@@ -58,7 +58,7 @@ function PortfolioCard() {
         </Col>
         <Col>
           {/* Card 2 - Weather Dashboard */}
-          <Card className="wholecard" style={{ width: "18rem" }}>
+          <Card className="wholecard mx-auto" style={{ width: "18rem" }}>
             <Card.Img
               variant="top"
               src={process.env.PUBLIC_URL + "../images/weather-dashboard.png"}
@@ -95,7 +95,7 @@ function PortfolioCard() {
         </Col>
         <Col>
           {/* Card 3 - Employee Directory */}
-          <Card className="wholecard" style={{ width: "18rem" }}>
+          <Card className="wholecard mx-auto" style={{ width: "18rem" }}>
             <Card.Img
               variant="top"
               src={process.env.PUBLIC_URL + "../images/employee-directory.png"}
@@ -135,7 +135,7 @@ function PortfolioCard() {
       <Row className="mb-5">
         <Col>
           {/* Card 4 - Workday Scheduler */}
-          <Card className="wholecard" style={{ width: "18rem" }}>
+          <Card className="wholecard mx-auto" style={{ width: "18rem" }}>
             <Card.Img
               variant="top"
               src={process.env.PUBLIC_URL + "./images/work-day-planner-img.png"}
@@ -172,7 +172,7 @@ function PortfolioCard() {
         </Col>
         <Col>
           {/* Card 5 - Fitness Tracker */}
-          <Card className="wholecard" style={{ width: "18rem" }}>
+          <Card className="wholecard mx-auto" style={{ width: "18rem" }}>
             <Card.Img
               variant="top"
               src={process.env.PUBLIC_URL + "../images/fitness-tracker.png"}
@@ -207,7 +207,7 @@ function PortfolioCard() {
         </Col>
         <Col>
           {/* Card 6 - Note Taker */}
-          <Card className="wholecard" style={{ width: "18rem" }}>
+          <Card className="wholecard mx-auto" style={{ width: "18rem" }}>
             <Card.Img
               variant="top"
               src={process.env.PUBLIC_URL + "../images/note-taker.png"}
@@ -219,6 +219,8 @@ function PortfolioCard() {
                 <ul>
                   <li>Node.js</li>
                   <li>Express</li>
+                  <li>Express</li>
+                  <li>db-json</li>
                 </ul>
               </Card.Text>
               <div className="d-grid gap-2">
