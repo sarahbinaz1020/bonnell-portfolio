@@ -17,7 +17,7 @@ function PortfolioCard() {
       <Row className="mt-5 mb-5">
         <Col>
           {/* Card 1 - Bathroom Buddy */}
-          <Card style={{ width: "18rem" }}>
+          <Card className="wholecard" style={{ width: "18rem" }}>
             <Card.Img
               variant="top"
               src={process.env.PUBLIC_URL + "/images/bathroom-buddy.png"}
@@ -49,7 +49,7 @@ function PortfolioCard() {
         </Col>
         <Col>
           {/* Card 2 - Workday Scheduler */}
-          <Card style={{ width: "18rem" }}>
+          <Card className="wholecard" style={{ width: "18rem" }}>
             <Card.Img
               variant="top"
               src={process.env.PUBLIC_URL + "./images/work-day-planner-img.png"}
@@ -78,14 +78,14 @@ function PortfolioCard() {
           </Card>
         </Col>
         <Col>
-          {/* Card 3 - Note Taker */}
-          <Card style={{ width: "18rem" }}>
+        {/* Card 3 - Employee Directory */}
+        <Card className="wholecard" style={{ width: "18rem" }}>
             <Card.Img
               variant="top"
-              src={process.env.PUBLIC_URL + "../images/note-taker.png"}
+              src={process.env.PUBLIC_URL + "../images/employee-directory.png"}
             />
             <Card.Body>
-              <Card.Title>Note Taker</Card.Title>
+              <Card.Title>Employee Directory</Card.Title>
               <Card.Text>
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
@@ -93,25 +93,25 @@ function PortfolioCard() {
               <div className="d-grid gap-2">
               <Button
                 variant="primary"
-                href="https://note-taker-sb.herokuapp.com/"
+                href="https://sarahbinaz1020.github.io/employee-directory/"
               >
                 Deployed Site
               </Button>
               <Button
                 variant="primary"
-                href="https://github.com/sarahbinaz1020/note-taker"
+                href="https://github.com/sarahbinaz1020/employee-directory"
               >
                 Code
               </Button>
               </div>
             </Card.Body>
-          </Card>
+          </Card>          
         </Col>
       </Row>
       <Row className="mb-5">
         <Col>
           {/* Card 4 - Weather Dashboard */}
-          <Card style={{ width: "18rem" }}>
+          <Card className="wholecard" style={{ width: "18rem" }}>
             <Card.Img
               variant="top"
               src={process.env.PUBLIC_URL + "../images/weather-dashboard.png"}
@@ -141,7 +141,7 @@ function PortfolioCard() {
         </Col>
         <Col>
           {/* Card 5 - Fitness Tracker */}
-          <Card style={{ width: "18rem" }}>
+          <Card className="wholecard" style={{ width: "18rem" }}>
             <Card.Img
               variant="top"
               src={process.env.PUBLIC_URL + "../images/fitness-tracker.png"}
@@ -170,14 +170,14 @@ function PortfolioCard() {
           </Card>
         </Col>
         <Col>
-          {/* Card 6 - Employee Directory */}
-          <Card style={{ width: "18rem" }}>
+          {/* Card 6 - Note Taker */}
+          <Card className="wholecard" style={{ width: "18rem" }}>
             <Card.Img
               variant="top"
-              src={process.env.PUBLIC_URL + "../images/employee-directory.png"}
+              src={process.env.PUBLIC_URL + "../images/note-taker.png"}
             />
             <Card.Body>
-              <Card.Title>Employee Directory</Card.Title>
+              <Card.Title>Note Taker</Card.Title>
               <Card.Text>
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
@@ -185,13 +185,13 @@ function PortfolioCard() {
               <div className="d-grid gap-2">
               <Button
                 variant="primary"
-                href="https://sarahbinaz1020.github.io/employee-directory/"
+                href="https://note-taker-sb.herokuapp.com/"
               >
                 Deployed Site
               </Button>
               <Button
                 variant="primary"
-                href="https://github.com/sarahbinaz1020/employee-directory"
+                href="https://github.com/sarahbinaz1020/note-taker"
               >
                 Code
               </Button>
