@@ -18,19 +18,18 @@ function Dashboard() {
                 <strong>
                   <em>Front End Developer</em>
                 </strong>
-                , after having just finished my Certification in Full Stack Web
+                , having just finished my Certification in Full Stack Web
                 Development through the University of Arizona/Trilogy.
               </p>
               <p id="list">
-                More than anything, this course taught me the process of
+                This course taught me the process of
                 learning computer languages and how to effectively and
                 efficiently search for the tools needed to get an intended
-                output. Having spent most of my educational years learning
-                Spanish, German, and French, it was a fairly easy learning curve
-                once I figured out the processes.
+                output. It was a fairly easy learning curve
+                once I figured out the patterns within the processes; it's just like learning any spoken language.
               </p>
               <p id="list">
-                Long-time fascination with coding, I made the switch and dove in
+                I've had an enduring fascination with coding, I made the switch and dove in
                 head-first. Haven't looked back.
               </p>
               <p className="text-justify" id="list">
@@ -137,7 +136,6 @@ function Dashboard() {
                   <p id="list">Mongoose</p>
                 </Col>
               </Row>
-              <li>Knowledge of MVC, web and server-side APIs</li>
             </Col>
           </Row>
          
