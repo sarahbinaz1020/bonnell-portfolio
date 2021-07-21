@@ -1,6 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import Header from "../../components/Header/Header";
+import { Container, Row, Col, Image } from "react-bootstrap";
 import "./dashboard.css";
 
 function Dashboard() {
@@ -8,30 +7,46 @@ function Dashboard() {
     <>
       <Container className="listofskills d-flex justify-content-center">
         <Row>
-          <Col>
-            <Header></Header>
-          </Col>
+        <Col className="justify-content-center" fluid>
+          <Image
+            className="mainImage mt-5"
+            src={process.env.PUBLIC_URL + "/images/bonnell-headshot.jpg"}
+            rounded
+            fluid
+          />
+        </Col>
+        <Col className="align-items-center">
+          <img
+            src={process.env.PUBLIC_URL + "/images/hello.png"}
+            className="portfolio-title figure-img img-fluid rounded mx-auto d-block"
+            alt="..."
+          />
+          <h1 className="header">Nice to meet you</h1>
+          <p className="headertxt">My name is Sarah.</p>
+          <p className="headertxt">
+            Junior Web Developer with a background in commercial real estate and
+            marketing coupled with a life-long dedication to learning.
+            Certificate in Full Stack Web Development from University of Arizona
+            Coding Boot Camp with skills in HTML5, CSS, JavaScript, Wireframing,
+            and User Interface Development. Driven by collaborative and
+            independent efforts to combine creativity and problem solving to
+            develop user-friendly applications. An Economics and French language
+            background, strong research skills with an eye for detail, and big
+            picture vision make me a significant addition to any team. 
+          </p>
+          <div>
+            <a
+              href="https://drive.google.com/file/d/1PdPPVWDQrDSOSrAmNP79qaqPq1I1TRTT/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Click here to view my resume
+            </a>
+          </div>
+        </Col>
           <Row>
             <Col className="dashboardtxt text-justify">
-              <p className="mt-5 mb-5" id="list">
-                Actively seeking a position for{" "}
-                <strong>
-                  <em>Front End Developer</em>
-                </strong>
-                , having just finished my Certification in Full Stack Web
-                Development through the University of Arizona/Trilogy.
-              </p>
-              <p id="list">
-                This course taught me the process of
-                learning computer languages and how to effectively and
-                efficiently search for the tools needed to get an intended
-                output. It was a fairly easy learning curve
-                once I figured out the patterns within the processes; it's just like learning any spoken language.
-              </p>
-              <p id="list">
-                I've had an enduring fascination with coding, I made the switch and dove in
-                head-first. Haven't looked back.
-              </p>
+              
               <p className="text-justify" id="list">
                 Skills:
               </p>
