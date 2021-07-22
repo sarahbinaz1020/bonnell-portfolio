@@ -1,7 +1,5 @@
 Sarah Bonnell Portfolio
 
-
-
 * [Deployed Link](https://bonnell-portfolio.netlify.app/#/)
 
 * [Github Code](https://github.com/sarahbinaz1020/bonnell-portfolio)
@@ -20,6 +18,7 @@ Updating portfolio in React with:
 
 * Nodemailer License used is MIT https://nodemailer.com/about/
 
+* Thanks to [Subtle Patterns](https://www.toptal.com/designers/subtlepatterns/) and [Font Awesome](https://fontawesome.com/) for adding design to the site.
 
 * Pending issues: 
 
