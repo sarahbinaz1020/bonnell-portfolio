@@ -6,5 +6,8 @@
   }
 
   .footer-text {
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    letter-spacing: .1rem;
     color: white;
   }
