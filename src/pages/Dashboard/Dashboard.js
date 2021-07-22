@@ -7,15 +7,15 @@ function Dashboard() {
     <>
       <Container className="d-flex justify-content-center">
         <Row>
-        <Row>
-          <Col>
-            <img
-              src={process.env.PUBLIC_URL + "/images/hello.png"}
-              className="portfolio-title figure-img img-fluid rounded d-block"
-              alt="..."
-            />
-          </Col>
-        </Row>
+          <Row>
+            <Col>
+              <img
+                src={process.env.PUBLIC_URL + "/images/hello.png"}
+                className="hello-title figure-img img-fluid rounded d-block mx-auto"
+                alt="..."
+              />
+            </Col>
+          </Row>
           <Col className="">
             <img
               className="mainImage mt-5"
@@ -47,19 +47,25 @@ function Dashboard() {
             </p>
             <div>
               <a
+              className="resume-link"
                 href="https://drive.google.com/file/d/1PdPPVWDQrDSOSrAmNP79qaqPq1I1TRTT/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >
-                <strong>Click here to view my resume</strong>
+                <strong><em>Click here to view my resume</em></strong>
               </a>
             </div>
           </Col>
           <Row>
             <Col className="dashboardtxt text-justify">
-              <p className="text-justify" id="list-title">
+              <p
+                className="text-center fs-4 mt-5 mb-4 border-bottom"
+                id="list-title"
+              >
                 Skills:
               </p>
+
+              {/* Row 1 */}
               <Row className="mb-3">
                 <Col xs={6} md={4} className="text-center">
                   <span style={{ color: "white" }}>
@@ -80,6 +86,8 @@ function Dashboard() {
                   <p id="list">JavaScript</p>
                 </Col>
               </Row>
+
+              {/* Row 2 */}
               <Row className="mb-3">
                 <Col xs={6} md={4} className="text-center">
                   <span style={{ color: "white" }} className="">
@@ -100,6 +108,8 @@ function Dashboard() {
                   <p id="list">Express</p>
                 </Col>
               </Row>
+
+              {/* Row 3 */}
               <Row className="mb-3">
                 <Col xs={6} md={4} className="text-center">
                   <span style={{ color: "white" }}>
@@ -120,13 +130,9 @@ function Dashboard() {
                   <p id="list">Bootstrap</p>
                 </Col>
               </Row>
+
+              {/* Row 4 */}
               <Row className="mb-3">
-                <Col xs={6} md={4} className="text-center">
-                  <span style={{ color: "white" }}>
-                    <i class="fab fa-html5 fa-3x"></i>
-                  </span>{" "}
-                  <p id="list">Bootstrap</p>
-                </Col>
                 <Col xs={6} md={4} className="text-center">
                   <span style={{ color: "white" }}>
                     <i class="fab fa-css3 fa-3x"></i>
@@ -139,14 +145,17 @@ function Dashboard() {
                   </span>{" "}
                   <p id="list">MySQL</p>
                 </Col>
-              </Row>
-              <Row>
                 <Col xs={6} md={4} className="text-center">
                   <span style={{ color: "white" }}>
                     <i class="fas fa-database fa-3x"></i>
                   </span>{" "}
                   <p id="list">MongoDB</p>
                 </Col>
+              </Row>
+
+              {/* Row 5 */}
+
+              <Row className="mb-5">
                 <Col xs={6} md={4} className="text-center">
                   <span style={{ color: "white" }}>
                     <i class="fas fa-database fa-3x"></i>
@@ -159,6 +168,7 @@ function Dashboard() {
                   </span>{" "}
                   <p id="list">Mongoose</p>
                 </Col>
+                <Col></Col>
               </Row>
             </Col>
           </Row>{" "}

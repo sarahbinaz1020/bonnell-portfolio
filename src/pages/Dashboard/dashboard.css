@@ -3,7 +3,13 @@
   height: 400px;
   width: 325px;
   float: left;
-  margin-right: 35px;
+  margin-right: 40px;
+}
+
+.hello-title {
+  box-shadow: 25px 25px 10px 80px rgb(49, 53, 59) inset, -50px -50px 100px 100px rgb(49, 53, 59) inset ; 
+  width: 450px;
+  height: 190px;
 }
 
 .header {
@@ -17,14 +23,13 @@
   color: white;
 }
 
-#list-title {
+#list-title,
+#list {
     color: white;
     font-weight: 400;
     font-size: 20px;
   }
 
-
-/* .dashboardtxt {
-  background-image: url("../../assets/images/router-get.png");
-    background-size: cover;
-} */
+.resume-link{
+  color: white;
+}
