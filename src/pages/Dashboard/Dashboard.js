@@ -1,50 +1,49 @@
 import React from "react";
-import { Container, Row, Col, Image } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import "./dashboard.css";
 
 function Dashboard() {
   return (
     <>
-      <Container className="listofskills d-flex justify-content-center">
+      <Container className="d-flex justify-content-center">
         <Row>
-          <Col></Col>
-        </Row>
         <Row>
-          <Col className="justify-content-center" md="auto" fluid>
-            <Image
-              className="mainImage mt-5"
-              src={process.env.PUBLIC_URL + "/images/bonnell-headshot.jpg"}
-              rounded
-              fluid
-            />
-          </Col>
-          <Col className="">
+          <Col>
             <img
               src={process.env.PUBLIC_URL + "/images/hello.png"}
               className="portfolio-title figure-img img-fluid rounded d-block"
               alt="..."
             />
-            <h3 className="header">Nice to meet you</h3>
-            <p className="headertxt">My name is Sarah.</p>
+          </Col>
+        </Row>
+          <Col className="">
+            <img
+              className="mainImage mt-5"
+              src={process.env.PUBLIC_URL + "/images/bonnell-headshot.jpg"}
+              rounded
+              alt=""
+            />
+
+            <h3 className="header mt-4">Nice to meet you</h3>
             <p className="headertxt">
+              My name is Sarah.
+              <br></br>
+              <br></br>
               Junior Web Developer with a background in commercial real estate
               and marketing coupled with a life-long dedication to learning.
+              Skilled in HTML5, CSS, JavaScript, Wireframing, and User Interface
+              Development.
               <br></br>
               <br></br>
               Driven by collaborative and independent efforts to combine
               creativity and problem solving to develop user-friendly
-              applications. An Economics and French language background, strong
-              research skills with an eye for detail, and big picture vision
-              make me a significant addition to any team.
+              applications. Strengths lie in effective communication for both
+              user and business needs, and a tenacious work ethic.
               <br></br>
               <br></br>
-              Certificate in Full Stack Web Development from University of
-              Arizona Coding Boot Camp with skills in HTML5, CSS, JavaScript,
-              Wireframing, and User Interface Development.
-              <br></br>
-              <br></br>
-              When not building useful and visually appealing applications, you can find me hiking,
-              running, or creating new sweet recipes in the kitchen.
+              When not building useful and visually appealing applications, you
+              can find me hiking, running, or experimenting on new sweet recipes
+              in the kitchen.
             </p>
             <div>
               <a
@@ -58,7 +57,7 @@ function Dashboard() {
           </Col>
           <Row>
             <Col className="dashboardtxt text-justify">
-              <p className="text-justify" id="list">
+              <p className="text-justify" id="list-title">
                 Skills:
               </p>
               <Row className="mb-3">
@@ -101,7 +100,6 @@ function Dashboard() {
                   <p id="list">Express</p>
                 </Col>
               </Row>
-
               <Row className="mb-3">
                 <Col xs={6} md={4} className="text-center">
                   <span style={{ color: "white" }}>
@@ -163,7 +161,7 @@ function Dashboard() {
                 </Col>
               </Row>
             </Col>
-          </Row>
+          </Row>{" "}
         </Row>
       </Container>
     </>
