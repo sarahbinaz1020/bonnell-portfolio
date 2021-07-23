@@ -21,6 +21,8 @@
 .headertxt {
   font-size: 20px;
   color: white;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 #list-title,
