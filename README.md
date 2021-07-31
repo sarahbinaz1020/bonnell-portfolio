@@ -4,27 +4,25 @@ Sarah Bonnell Portfolio
 
 * [Github Code](https://github.com/sarahbinaz1020/bonnell-portfolio)
 
-## Description
+## User Story:
 
-Updating portfolio in React with:
+* As a user, I would like to look a professional portfolio that has a bio section showing skills and bio. Would also like to see some work that showcases the skills, with links to code and to deployed sites. Finally, would like a contact section to be able to reach out to the individual.  
 
-* 6 total projects in Portfolio
+* This app uses React and Bootstrap.
 
-* Header
+![image of markdown](./public/images/bonnell-portfolio.png)
 
-* Footer
+## Pending issues: 
 
-* (Currently under construction) Contact Form created using Nodemailer and Express, along with OAuth2 for Gmail authentication. Make sure to set-up OAuth2 configuration on https://console.cloud.google.com/apis & https://developers.google.com/oauthplayground
+  * Currently working on creating a single project componentfor all projects
 
-* Nodemailer License used is MIT https://nodemailer.com/about/
+* (Currently under construction) Contact Form created using Nodemailer and Express, along with OAuth2 for Gmail authentication. 
+
+    * Make sure to set-up OAuth2 configuration on https://console.cloud.google.com/apis & https://developers.google.com/oauthplayground
 
 * Thanks to [Subtle Patterns](https://www.toptal.com/designers/subtlepatterns/) and [Font Awesome](https://fontawesome.com/) for adding design to the site.
 
-* Pending issues: 
-
-    * Currently working on contact form using Nodemailer and Express, along with OAuth2 with googleAPIs to integrate a contact form for users to submit directly to my email.
-
-    * Currently working on creating a single project componentfor all projects
+  
 
 ## Questions
 
