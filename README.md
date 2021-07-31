@@ -12,9 +12,9 @@ Sarah Bonnell Portfolio
 
 ![image of markdown](./public/images/bonnell-portfolio.png)
 
-## Pending issues: 
+## Future Development: 
 
-  * Currently working on creating a single project componentfor all projects
+  * Currently working on creating a single project component for all projects using JSON
 
 * (Currently under construction) Contact Form created using Nodemailer and Express, along with OAuth2 for Gmail authentication. 
 
