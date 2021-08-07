@@ -61,7 +61,7 @@ function PortfolioCard() {
           <Card className="wholecard mx-auto" style={{ width: "18rem" }}>
             <Card.Img
               variant="top"
-              src={process.env.PUBLIC_URL + "../images/weather-dashboard.png"}
+              src={process.env.PUBLIC_URL + "/images/weather-dashboard.png"}
             />
             <Card.Body>
               <Card.Title className="cardtitle">Weather Dashboard</Card.Title>
@@ -98,7 +98,7 @@ function PortfolioCard() {
           <Card className="wholecard mx-auto" style={{ width: "18rem" }}>
             <Card.Img
               variant="top"
-              src={process.env.PUBLIC_URL + "../images/employee-directory.png"}
+              src={process.env.PUBLIC_URL + "/images/employee-directory.png"}
             />
             <Card.Body>
               <Card.Title className="cardtitle">Employee Directory</Card.Title>
@@ -138,7 +138,7 @@ function PortfolioCard() {
           <Card className="wholecard mx-auto" style={{ width: "18rem" }}>
             <Card.Img
               variant="top"
-              src={process.env.PUBLIC_URL + "./images/work-day-planner-img.png"}
+              src={process.env.PUBLIC_URL + "/images/work-day-planner-img.png"}
             />
             <Card.Body>
               <Card.Title className="cardtitle">Work Day Scheduler</Card.Title>
@@ -175,7 +175,7 @@ function PortfolioCard() {
           <Card className="wholecard mx-auto" style={{ width: "18rem" }}>
             <Card.Img
               variant="top"
-              src={process.env.PUBLIC_URL + "../images/fitness-tracker.png"}
+              src={process.env.PUBLIC_URL + "/images/fitness-tracker.png"}
             />
             <Card.Body>
               <Card.Title className="cardtitle">Fitness Tracker</Card.Title>
@@ -210,7 +210,7 @@ function PortfolioCard() {
           <Card className="wholecard mx-auto" style={{ width: "18rem" }}>
             <Card.Img
               variant="top"
-              src={process.env.PUBLIC_URL + "../images/note-taker.png"}
+              src={process.env.PUBLIC_URL + "/images/note-taker.png"}
             />
             <Card.Body>
               <Card.Title className="cardtitle">Note Taker</Card.Title>
