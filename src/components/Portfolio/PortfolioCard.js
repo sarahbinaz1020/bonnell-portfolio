@@ -25,7 +25,9 @@ function PortfolioCard() {
             <Card.Body>
               <Card.Title className="cardtitle">Bathroom Buddy</Card.Title>
               <Card.Text className="cardtext">
-                Tools used:
+                Find a public restroom wherever you are, and rate your experience.
+<br></br>
+               <em>Tools used:</em> 
                 <ul>
                   <li>Node.js</li>
                   <li>Express</li>
