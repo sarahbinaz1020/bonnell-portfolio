@@ -25,9 +25,9 @@ function PortfolioCard() {
             <Card.Body>
               <Card.Title className="cardtitle">Bathroom Buddy</Card.Title>
               <Card.Text className="cardtext">
-                Find a public restroom wherever you are, and rate your experience.
-<br></br>
-               <em>Tools used:</em> 
+                <em> Find a public restroom wherever you are, and rate your experience.</em>
+                <br></br>
+               Tools used:
                 <ul>
                   <li>Node.js</li>
                   <li>Express</li>
@@ -68,6 +68,8 @@ function PortfolioCard() {
             <Card.Body>
               <Card.Title className="cardtitle">Weather Dashboard</Card.Title>
               <Card.Text className="cardtext">
+              <em> Find the weather for a particular city, save and delete your recent searches.</em>
+                <br></br>
                 Tools used:
                 <ul>
                   <li>JavaScript</li>
@@ -105,6 +107,8 @@ function PortfolioCard() {
             <Card.Body>
               <Card.Title className="cardtitle">Employee Directory</Card.Title>
               <Card.Text className="cardtext">
+              <em> Search for an employee within your company, sort and filter by different variables.</em>
+                <br></br>
                 Tools used:
                 <ul>
                   <li>React</li>
@@ -145,6 +149,8 @@ function PortfolioCard() {
             <Card.Body>
               <Card.Title className="cardtitle">Work Day Scheduler</Card.Title>
               <Card.Text className="cardtext">
+              <em> Organize your day with this digital planner, quickly view past/current/future tasks by color coded hours.</em>
+                <br></br>
                 Tools used:
                 <ul>
                   <li>JavaScript</li>
@@ -182,6 +188,8 @@ function PortfolioCard() {
             <Card.Body>
               <Card.Title className="cardtitle">Fitness Tracker</Card.Title>
               <Card.Text className="cardtext">
+              <em> Add and edit your workouts, view your workouts by days and weights used.</em>
+                <br></br>
                 Tools used:
                 <ul>
                   <li>MongoDB</li>
@@ -217,10 +225,11 @@ function PortfolioCard() {
             <Card.Body>
               <Card.Title className="cardtitle">Note Taker</Card.Title>
               <Card.Text className="cardtext">
+              <em> Add and edit your notes on a digital note taker, save your notes for future reference.</em>
+                <br></br>
                 Tools used:
                 <ul>
                   <li>Node.js</li>
-                  <li>Express</li>
                   <li>Express</li>
                   <li>db-json</li>
                 </ul>
